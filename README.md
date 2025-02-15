@@ -56,14 +56,15 @@ To toggle between dark and light themes, click the sun/moon icon in the top righ
 
 ```
 src/
-├── app/
-│   └── store.js          # Redux store configuration
-├── features/
-│   └── counter/
-│       └── counterSlice.js # Counter reducer and actions
-├── App.jsx              # Main application component
-├── App.css             # Styles
-└── main.jsx            # Application entry point
+├── store/
+│   └── store.js         
+├── Slices/
+│   └── counterSlice.js
+├── Components
+|   └── Counter.jsx
+├── App.jsx              
+├── App.css             
+└── main.jsx  
 ```
 
 ## 🤝 Contributing
